@@ -4,8 +4,6 @@
 
 An abstract syntax tree is a structure that represents a simplified version of a program's source code.
 
-## Context-Free Language
-
 ## Backpatching
 
 In compiler and interpreter implementations, backpatching refers to modifying the control flow graph or other data structures after the program has been compiled or interpreted.
@@ -14,13 +12,29 @@ In compiler and interpreter implementations, backpatching refers to modifying th
 
 https://en.wikipedia.org/wiki/Backtracking
 
-## deterministic context-free grammars (DCFGs)
+## Context-Free grammar
 
-TODO
+https://en.wikipedia.org/wiki/Context-free_grammar
+
+## Context-sensitive grammar
+
+https://en.wikipedia.org/wiki/Context-sensitive_grammar
+
+## Deterministic context-free grammar
+
+https://en.wikipedia.org/wiki/Deterministic_context-free_grammar
 
 ## deterministic context-free languages (DCFLs)
 
-TODO
+https://en.wikipedia.org/wiki/Deterministic_context-free_language
+
+## Formal grammar
+
+https://en.wikipedia.org/wiki/Formal_grammar
+
+## Formal language
+
+https://en.wikipedia.org/wiki/Formal_language
 
 ## Grammar
 
@@ -104,6 +118,18 @@ https://en.wikipedia.org/wiki/Operator-precedence_parser
 
 https://en.wikipedia.org/wiki/Operator-precedence_parser#Pratt_parsing
 
+## Predicate
+
+https://en.wikipedia.org/wiki/Predicate_(logic)
+
+## Production Rules
+
+https://en.wikipedia.org/wiki/Production_(computer_science)
+
+## Quantifier
+
+https://en.wikipedia.org/wiki/Quantifier_(logic)
+
 ## Recursive descent parser
 
 https://en.wikipedia.org/wiki/Recursive_descent_parser
@@ -120,6 +146,10 @@ Spans represent a position within a given piece of text. This can be represented
 
 Syntax errors occur when the input source code fails to comply to language rules during the lexing or parsing process.
 
+## Terminal and nonterminal symbols
+
+https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols
+
 ## Tokens
 
 Tokens are the smallest meaningfully defined units in a programming language, such as keywords, identifiers, operators, and literals.
@@ -127,3 +157,9 @@ Tokens are the smallest meaningfully defined units in a programming language, su
 ### Token Position Information
 
 Lexers can record a token's position (see [span](#spans)) in the original source code, which is useful for generating error message and debugging.
+
+## Universal quantification
+
+**∀**
+
+https://en.wikipedia.org/wiki/Universal_quantification

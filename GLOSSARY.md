@@ -44,6 +44,10 @@ https://en.wikipedia.org/wiki/Deterministic_context-free_language
 
 An unexpected behavior in the programs behavior. This can either be non-fatal (can be handled by the program) or fatal (program terminates/the error wasn't handled).
 
+- [Syntactical](#syntactical-errors)
+- [Compiler](#compiler-errors)
+- [Runtime](#runtime-errors)
+
 ## Formal grammar
 
 https://en.wikipedia.org/wiki/Formal_grammar
@@ -88,13 +92,13 @@ https://en.wikipedia.org/wiki/Lexical_analysis
 
 ## LL Grammar
 
-In formal language theory, an LL grammar is a context-free grammar that can be parsed by an LL parser, which parses the input from Left to right, and constructs a Leftmost derivation of the sentence (hence LL, compared with LR parser that constructs a rightmost derivation). A language that has an LL grammar is known as an LL language. These form subsets of deterministic context-free grammars (DCFGs) and deterministic context-free languages (DCFLs), respectively. One says that a given grammar or language "is an LL grammar/language" or simply "is LL" to indicate that it is in this class.
+In formal language theory, an LL grammar is a [context-free grammar](#context-free-grammar) that can be parsed by an [LL parser](#ll-parser), which parses the input from Left to right, and constructs a Leftmost derivation of the sentence (hence LL, compared with [LR parser](#lr-parser) that constructs a rightmost derivation). A language that has an [LL grammar](#ll-grammar) is known as an LL language. These form subsets of deterministic context-free grammars ([DCFGs](#deterministic-context-free-grammar)) and deterministic context-free languages ([DCFLs](#deterministic-context-free-language)), respectively. One says that a given grammar or language "is an LL grammar/language" or simply "is LL" to indicate that it is in this class.
 
 LL parsers are table-based parsers, similar to LR parsers. LL grammars can alternatively be characterized as precisely those that can be parsed by a predictive parser – a recursive descent parser without backtracking – and these can be readily written by hand. This article is about the formal properties of LL grammars; for parsing, see LL parser or recursive descent parser.
 
 ## LL Parser
 
-LL parser is a top-down parser for a restricted context-free language. It parses the input from Left to right, performing Leftmost derivation of the sentence.
+LL [parser](#parser) is a top-down parser for a restricted [context-free language](#context-free-grammar). It parses the input from Left to right, performing Leftmost derivation of the sentence.
 
 An LL parser is called an LL(k) parser if it uses k tokens of lookahead when parsing a sentence. A grammar is called an LL(k) grammar if an LL(k) parser can be constructed from it.
 
@@ -124,7 +128,7 @@ https://en.wikipedia.org/wiki/LR_parser
 | ----------- |
 | 1969/1979   |
 
-Generally, the LALR parser refers to the LALR(1) parser, just as the LR parser generally refers to the LR(1) parser The "(1)" denotes one-token lookahead, to resolve differences between rule patterns during parsing.
+Generally, the LALR [parser](#parser) refers to the LALR(1) parser, just as the [LR parser](#lr-parser) generally refers to the LR(1) parser The "(1)" denotes one-[token](#tokens) lookahead, to resolve differences between rule patterns during parsing.
 
 Similarly, there is an LALR(2) parser with two-token lookahead, and LALR(k) parsers with k-token lookup, but these are rare in actual use.
 
@@ -170,7 +174,7 @@ https://en.wikipedia.org/wiki/Recursive_descent_parser
 
 ## Runtime Errors
 
-Runtime [errors](#error) happen during the programs execution and are typically errors that weren't/couldn't be caught at lexing/parsing/comile time.
+Runtime [errors](#error) happen during the programs execution and are typically errors that weren't/couldn't be caught at lexing/parsing/compile time.
 
 ## Shift Reduce Parser
 

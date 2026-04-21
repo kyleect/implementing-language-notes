@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Abstract_syntax_tree
 
 ## Backpatching
 
-In compiler and interpreter implementations, backpatching refers to modifying the control flow graph or other data structures after the program has been compiled or interpreted.
+In [compiler](#compiler) and [interpreter](#interpreter) implementations, backpatching refers to modifying the control flow graph or other data structures after the program has been compiled or interpreted.
 
 https://stackoverflow.com/questions/15984671/what-does-backpatching-mean
 
@@ -16,13 +16,25 @@ https://stackoverflow.com/questions/15984671/what-does-backpatching-mean
 
 https://en.wikipedia.org/wiki/Backtracking
 
+## Bytecode
+
+https://en.wikipedia.org/wiki/Bytecode
+
+## Comments
+
+Comments is text in the source code ignored by the [compiler](#compiler) or [interpreter](#interpreter).
+
+## Compiler
+
+A compiler is a program that translates high-level representation in to another lower level representation. This can be machine code or [byte code](#byte-code).
+
 ## Compiler Errors
 
-Compiler [errors](#error) happen at compile time and are typically reported by the compiler. They indicate that there are issues with the program that prevent it from being compiled.
+Compiler [errors](#error) happen at compile time and are typically reported by the [compiler](#compiler). They indicate that there are issues with the program that prevent it from being compiled.
 
 ## Concrete Syntax Tree
 
-A concrete syntax tree is a structure ([parse tree](#parse-tree)) that represents the entirety of the original source code, comments included.
+A concrete syntax tree is a structure ([parse tree](#parse-tree)) that represents the entirety of the original source code, [comments](#comments) included.
 
 ## Context-Free grammar
 
@@ -84,6 +96,27 @@ digit excluding zero = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
 digit                = "0" | digit excluding zero ;
 ```
 
+## Identifiers
+
+https://en.wikipedia.org/wiki/Identifier_(computer_languages)
+
+## Interpreter
+
+In computing, an interpreter is software that executes source code without first compiling it to machine code.
+
+https://en.wikipedia.org/wiki/Interpreter_(computing)
+
+## Keywords
+
+https://en.wikipedia.org/wiki/Reserved_word
+
+## Language Server Protocol
+
+The Language Server Protocol (LSP) is a JSON-RPC-based protocol for use between editors or IDEs and servers that provide: code completion, syntax highlighting and marking of warnings and errors, as well as refactoring routines.
+
+https://microsoft.github.io/language-server-protocol/
+https://en.wikipedia.org/wiki/Language_Server_Protocol
+
 ## Lexer
 
 A lexer is responsible for breaking down the input source code into [tokens](#tokens).
@@ -138,6 +171,14 @@ https://en.wikipedia.org/wiki/LALR_parser
 
 https://en.wikipedia.org/wiki/Lexical_analysis#Disambiguation_of_%22lexeme%22
 
+## Literals
+
+TODO
+
+## Operators
+
+TODO
+
 ## Parser
 
 A parser transforms a collection of [tokens](#tokens) in to an [AST](#ast) or [CST](#concrete-syntax-tree).
@@ -186,7 +227,7 @@ Spans represent a position within a given piece of text. This can be represented
 
 ## Syntactical Errors
 
-Syntax [errors](#error) occur when the input source code fails to comply to language rules during the lexing or parsing process.
+Syntax [errors](#error) occur when the input source code fails to comply to language rules during the [lexing](#lexer) or [parsing](#parser) process.
 
 ## Terminal and nonterminal symbols
 
@@ -194,7 +235,7 @@ https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols
 
 ## Tokens
 
-Tokens are the smallest meaningfully defined units in a programming language, such as keywords, identifiers, operators, and literals.
+Tokens are the smallest meaningfully defined units in a programming language, such as [keywords](#keywords), [identifiers](#identifiers), [operators](#operators), and [literals](#literals).
 
 https://en.wikipedia.org/wiki/Lexical_analysis
 

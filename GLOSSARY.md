@@ -28,6 +28,8 @@ Comments is text in the source code ignored by the [compiler](#compiler) or [int
 
 A compiler is a program that translates high-level representation in to another lower level representation. This can be machine code or [byte code](#byte-code).
 
+https://en.wikipedia.org/wiki/Compiler
+
 ### Multi Pass Compiler
 
 A multi pass compiler will process source code in multiple steps. This allows for user defined identifers like functions to be used before their declared, as oposed to [single pass compilers](#single-pass-compiler).

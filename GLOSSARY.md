@@ -28,6 +28,20 @@ Comments is text in the source code ignored by the [compiler](#compiler) or [int
 
 A compiler is a program that translates high-level representation in to another lower level representation. This can be machine code or [byte code](#byte-code).
 
+### Multi Pass Compiler
+
+A multi pass compiler will process source code in multiple steps. This allows for user defined identifers like functions to be used before their declared, as oposed to [single pass compilers](#single-pass-compiler).
+
+https://en.wikipedia.org/wiki/Multi-pass_compiler
+
+### Single Pass Compiler
+
+A single pass compiler will generally combine the lexing/parsing/compiling in to a single step. This was originally done because earlier computers didn't have the memory to store something like an [AST](#ast).
+
+This comes with the trade offs: All user defined identifiers must be forward declared before use
+
+https://en.wikipedia.org/wiki/One-pass_compiler
+
 ## Compiler Errors
 
 Compiler [errors](#error) happen at compile time and are typically reported by the [compiler](#compiler). They indicate that there are issues with the program that prevent it from being compiled.
@@ -59,6 +73,16 @@ An unexpected behavior in the programs behavior. This can either be non-fatal (c
 - [Syntactical](#syntactical-errors)
 - [Compiler](#compiler-errors)
 - [Runtime](#runtime-errors)
+
+## Expression
+
+An expression is a piece of code that generates a value. Expressions can be composed together.
+
+- `1 + 1`
+- `a`
+- `multiply(1, 2)`
+
+https://en.wikipedia.org/wiki/Expression_(computer_science)
 
 ## Formal grammar
 
@@ -225,6 +249,40 @@ https://en.wikipedia.org/wiki/Shift-reduce_parser
 
 Spans represent a position within a given piece of text. This can be represented in various forms: line/column, start/end, start/length.
 
+## Statement
+
+An statement is a piece of code that does not generate a value but does generate a side effect. Statements include declarations (variables, functions, structs, enums), expression statements, control flow statements, etc.
+
+https://en.wikipedia.org/wiki/Statement_(computer_science)
+
+### Declaration Statement
+
+A declaration statement declares/defines something e.g. variable, function.
+
+```typescript
+function noop() {}
+
+const PI = 3;
+```
+
+### Expression Statement
+
+An expression statement is an expression that's then consumed by a statement delimiter e.g. semicolon.
+
+```typescript
+1 + 1; // Produces no value
+```
+
+### Control Flow Statement
+
+```typescript
+if ("Hello".length > 2) {
+  //...
+} else {
+  //...
+}
+```
+
 ## Syntactical Errors
 
 Syntax [errors](#error) occur when the input source code fails to comply to language rules during the [lexing](#lexer) or [parsing](#parser) process.
@@ -243,8 +301,31 @@ https://en.wikipedia.org/wiki/Lexical_analysis
 
 Lexers can record a token's position (see [span](#spans)) in the original source code, which is useful for generating error message and debugging.
 
+## Type
+
+A type denotes what kind a value is. e.g. string, number, boolean, object in a [type system](#type-system).
+
+## Type Checker
+
+A typechecker verifies all that all the [types](#type) of a program and it's inputs are correct in a [type system](#type-system).
+
+## Type Error
+
+A type [error](#error) denotes a value violates a program or a language's typing rules during [typechecking](#type-checker).
+
+## Type Inference
+
+Type inference is the detection of a variable/function return/function parameter's [type](#type) without adding a type in the source code. The type is determined by it's use e.g. what value is being assigned, what operation is being performed (`a + 1` means `a` is a number), what argument is passed.
+
+## Type System
+
+https://en.wikipedia.org/wiki/Type_system
+
 ## Universal quantification
 
 **∀**
 
+See: [Type Systems](#type-system)
+
 https://en.wikipedia.org/wiki/Universal_quantification
+https://gist.github.com/kyleect/7f0580432d738bc61e78e69ac2e7a9ac

@@ -24,7 +24,7 @@ https://en.wikipedia.org/wiki/Context-sensitive_grammar
 
 https://en.wikipedia.org/wiki/Deterministic_context-free_grammar
 
-## deterministic context-free languages (DCFLs)
+## Deterministic context-free language
 
 https://en.wikipedia.org/wiki/Deterministic_context-free_language
 

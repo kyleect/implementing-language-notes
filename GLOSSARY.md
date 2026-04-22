@@ -235,6 +235,10 @@ https://en.wikipedia.org/wiki/Macro_(computer_science)
 
 https://en.wikipedia.org/wiki/Hygienic_macro
 
+### X Macro
+
+https://en.wikipedia.org/wiki/X_macro
+
 ## Operators
 
 TODO

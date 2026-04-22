@@ -21,6 +21,7 @@
 - [How to implement dependent types in 80 lines of code](https://gist.github.com/Hirrolot/27e6b02a051df333811a23b97c375196) `type type-system type-checking`
 - [Make A Language](https://lunacookies.github.io/lang/) `tutorial, rust`
 - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html) `parsing, pratt-parsing`
+- [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf) `assembly, ast, compiler, pdf`
 
 ## Books
 
@@ -33,3 +34,7 @@
 - [Unpopular Opinions?](https://old.reddit.com/r/ProgrammingLanguages/comments/jd30p7/unpopular_opinions/)
 - [What are the worst features you've tried in your programming language?](https://old.reddit.com/r/ProgrammingLanguages/comments/yhm4vx/what_are_the_worst_features_youve_tried_in_your/)
 - [A list of the worst gotchas of each language?](https://old.reddit.com/r/ProgrammingLanguages/comments/19f9asf/a_list_of_the_worst_gotchas_of_each_language/)
+
+# Languages
+
+- [Wren](https://github.com/wren-lang/wren) Another language by Robert Nystrom

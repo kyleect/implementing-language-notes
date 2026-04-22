@@ -11,7 +11,7 @@
 - [X Design Notes: Unifying OCaml Modules and Values](https://blog.polybdenum.com/2025/08/19/x-design-notes-unifying-ocaml-modules-and-values.html)
 - [Making an LSP for great good](https://thunderseethe.dev/posts/lsp-base/) `lsp, tutorial, rust`
 - [How To Make a Fast Dynamic Language Interpreter](https://zef-lang.dev/implementation) `optimization`
-- [A Complete Guide to LLVM for Programming Language Creators](https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/) `tutorial, c++`
+- [A Complete Guide to LLVM for Programming Language Creators](https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/) `llvm, tutorial, c++`
 - [The Rust I Wanted Had No Future](https://graydon2.dreamwidth.org/307291.html) `language-design`
 - [An accessible introduction to type theory and implementing a type-checker](https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checking/) `types, typechecking`
 - [Counterexamples in Type Systems](https://counterexamples.org/intro.html)
@@ -22,6 +22,7 @@
 - [Make A Language](https://lunacookies.github.io/lang/) `tutorial, rust`
 - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html) `parsing, pratt-parsing`
 - [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf) `assembly, ast, compiler, pdf`
+- [My First Language Frontend with LLVM Tutorial](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html) `llvm, tutorial`
 
 ## Books
 

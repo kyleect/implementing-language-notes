@@ -4,10 +4,10 @@
 #
 # Usage
 #
-# BIN="path/to/bin" ./tests.sh
-# BIN="path/to/bin" ./tests.sh PATTERN
-# BIN="path/to/bin" ./tests.sh --update
-# BIN="path/to/bin" ./tests.sh PATTERN --update
+# BIN="path/to/bin" ./test.sh
+# BIN="path/to/bin" ./test.sh PATTERN
+# BIN="path/to/bin" ./test.sh --update
+# BIN="path/to/bin" ./test.sh PATTERN --update
 
 set -euo pipefail
 

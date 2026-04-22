@@ -8,14 +8,14 @@ A bash script for running language syntax files against a language parser/compil
 
 ```sh
 # Run all tests
-BIN="path/to/bin" ./tests.sh
+BIN="path/to/bin" ./test.sh
 
 # Run tests matching pattern
-BIN="path/to/bin" ./tests.sh PATTERN
+BIN="path/to/bin" ./test.sh PATTERN
 
 # Update all tests expected files (*.out, *.err, and *.exit)
-BIN="path/to/bin" ./tests.sh --update
+BIN="path/to/bin" ./test.sh --update
 
 # Update  tests matching pattern expected files (*.out, *.err, and *.exit)
-BIN="path/to/bin" ./tests.sh PATTERN --update
+BIN="path/to/bin" ./test.sh PATTERN --update
 ```

@@ -4,6 +4,7 @@
 
 - [Glossary](./GLOSSARY.md)
 - [Links](./LINKS.md)
+- [Tools](./tools/README.md)
 
 ## Implementing A Language In
 

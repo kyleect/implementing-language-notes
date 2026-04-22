@@ -25,7 +25,7 @@
 
 ## Books
 
-- [Crafting Interpreters](https://craftinginterpreters.com/)
+- [Crafting Interpreters](https://craftinginterpreters.com/) by Robert Nystrom
 
 ## Meta
 

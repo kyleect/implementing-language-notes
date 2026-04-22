@@ -1,5 +1,9 @@
 # Glossary
 
+## Algebraic data type
+
+https://en.wikipedia.org/wiki/Algebraic_data_type
+
 ## AST
 
 An abstract syntax tree is a structure ([parse tree](#parse-tree)) that represents a simplified version of a program's source code. Comments would usually be excluded in an AST.
@@ -53,6 +57,10 @@ https://en.wikipedia.org/wiki/One-pass_compiler
 ## Compiler Errors
 
 Compiler [errors](#error) happen at compile time and are typically reported by the [compiler](#compiler). They indicate that there are issues with the program that prevent it from being compiled.
+
+## Composite data type
+
+https://en.wikipedia.org/wiki/Composite_data_type
 
 ## Concrete Syntax Tree
 
@@ -261,6 +269,10 @@ https://en.wikipedia.org/wiki/Operator-precedence_parser
 
 https://en.wikipedia.org/wiki/Parametric_polymorphism
 
+## Pattern Matching
+
+https://en.wikipedia.org/wiki/Pattern_matching
+
 ## Polymorphism
 
 https://en.wikipedia.org/wiki/Polymorphism_(computer_science)
@@ -272,6 +284,10 @@ https://en.wikipedia.org/wiki/Operator-precedence_parser#Pratt_parsing
 ## Predicate
 
 https://en.wikipedia.org/wiki/Predicate_(logic)
+
+## Product Type
+
+https://en.wikipedia.org/wiki/Product_type
 
 ## Production Rules
 
@@ -310,6 +326,10 @@ https://en.wikipedia.org/wiki/Substructural_type_system
 ## Subtyping
 
 https://en.wikipedia.org/wiki/Subtyping
+
+## Sum Type
+
+See: [tagged union](#tagged-union)
 
 ## Syntactic Sugar
 
@@ -353,6 +373,10 @@ Syntax [errors](#error) occur when the input source code fails to comply to lang
 
 https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols
 
+## Tagged Union
+
+https://en.wikipedia.org/wiki/Tagged_union
+
 ## Tokens
 
 Tokens are the smallest meaningfully defined units in a programming language, such as [keywords](#keywords), [identifiers](#identifiers), [operators](#operators), and [literals](#literals).
@@ -366,6 +390,8 @@ Lexers can record a token's position (see [span](#spans)) in the original source
 ## Type
 
 A type denotes what kind a value is. e.g. string, number, boolean, object in a [type system](#type-system).
+
+https://en.wikipedia.org/wiki/Data_type
 
 ## Type Checker
 

@@ -2,6 +2,7 @@
 
 Notes on various aspects of implementing a programming language.
 
-[Glossary](./GLOSSARY.md)
+- [Glossary](./GLOSSARY.md)
+- [Links](./LINKS.md)
 
 ---

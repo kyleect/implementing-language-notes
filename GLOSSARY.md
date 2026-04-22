@@ -74,6 +74,10 @@ https://en.wikipedia.org/wiki/Deterministic_context-free_grammar
 
 https://en.wikipedia.org/wiki/Deterministic_context-free_language
 
+## Effect System
+
+https://en.wikipedia.org/wiki/Effect_system
+
 ## Error
 
 An unexpected behavior in the programs behavior. This can either be non-fatal (can be handled by the program) or fatal (program terminates/the error wasn't handled).
@@ -92,6 +96,10 @@ An expression is a piece of code that generates a value. Expressions can be comp
 
 https://en.wikipedia.org/wiki/Expression_(computer_science)
 
+## Flow Typing
+
+https://en.wikipedia.org/wiki/Flow-sensitive_typing
+
 ## Formal grammar
 
 https://en.wikipedia.org/wiki/Formal_grammar
@@ -100,9 +108,17 @@ https://en.wikipedia.org/wiki/Formal_grammar
 
 https://en.wikipedia.org/wiki/Formal_language
 
+## Garbage Collection
+
+https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)
+
 ## Generic Types
 
 https://en.wikipedia.org/wiki/Generic_programming
+
+## Gradual Typing
+
+https://en.wikipedia.org/wiki/Gradual_typing
 
 ## Grammar
 
@@ -282,6 +298,10 @@ Spans represent a position within a given piece of text. This can be represented
 An statement is a piece of code that does not generate a value but does generate a side effect. Statements include declarations (variables, functions, structs, enums), expression statements, control flow statements, etc.
 
 https://en.wikipedia.org/wiki/Statement_(computer_science)
+
+## Substructural type system
+
+https://en.wikipedia.org/wiki/Substructural_type_system
 
 ## Subtyping
 

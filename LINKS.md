@@ -27,6 +27,9 @@
 - [Simple Bidirectional Type Inference](https://ettolrach.com/blog/bidirectional_inference.html) `types, type inference, tutorial`
 - [How to Choose Between Hindley-Milner and Bidirectional Typing](https://thunderseethe.dev/posts/how-to-choose-between-hm-and-bidir/) `typing, type inference`
 - [Are arrays functions?](https://futhark-lang.org/blog/2026-01-16-are-arrays-functions.html) `syntax, language-design`
+- [Super-flat ASTs](https://jhwlr.io/super-flat-ast/) `ast`
+- [Beyond Booleans](https://overreacted.io/beyond-booleans/) `types`
+- [Implement your language twice](https://futhark-lang.org/blog/2025-05-07-implement-your-language-twice.html)
 
 ## Books
 

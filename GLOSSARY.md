@@ -118,6 +118,12 @@ See: [parse tree](#parse-tree)
 >
 > Source: Wikipedia contributors, “Deterministic context-free language”, https://en.wikipedia.org/wiki/Deterministic_context-free_language, CC BY-SA 4.0. Unmodified.
 
+## Domain-specific language
+
+> A domain-specific language (DSL) is a computer language specialized to a specific application domain. This is in contrast to a general-purpose language (GPL), which is broadly applicable across domains. There are a wide variety of DSLs, ranging from widely used languages for common domains, such as HTML for web pages, down to languages used by only one or a few pieces of software, such as MUSH soft code. DSLs can be further subdivided by the kind of language, and include domain-specific markup languages, domain-specific modeling languages (more generally, specification languages), and domain-specific programming languages. Special-purpose computer languages have always existed in the computer age, but the term "domain-specific language" has become more popular due to the rise of domain-specific modeling. Simpler DSLs, specifically ones used by a single application, are sometimes informally called mini-languages.
+>
+> Source: Wikipedia contributors, “Domain-specific language”, https://en.wikipedia.org/wiki/Domain-specific_language, CC BY-SA 4.0. Unmodified.
+
 ## Effect System
 
 > In computing, an effect system is a formal system that describes the computational effects of computer programs, such as side effects. An effect system can be used to provide a compile-time check of the possible effects of the program.
@@ -145,6 +151,12 @@ An expression is a piece of code that generates a value. Expressions can be comp
 - `1 + 1`
 - `a`
 - `multiply(1, 2)`
+
+## First-class function
+
+> In computer science, a programming language is said to have first-class functions if it treats functions as first-class citizens. This means the language supports passing functions as arguments to other functions, returning them as the values from other functions, and assigning them to variables or storing them in data structures.
+>
+> Source: Wikipedia contributors, “First-class function”, https://en.wikipedia.org/wiki/First-class_function, CC BY-SA 4.0. Unmodified.
 
 ## Flow Typing
 
@@ -322,13 +334,29 @@ https://en.wikipedia.org/wiki/Literal_(computer_programming)
 
 ## Operators
 
-TODO
+> In computer programming, an operator is a programming language construct that provides functionality that may not be possible to define as a user-defined function (e.g. sizeof in C) or has syntax different from that of a function (e.g. infix addition as in a+b). Like other programming language concepts, operator has a generally accepted, although debatable, meaning among practitioners.
+>
+> Some operators are represented with symbols – characters typically not allowed for a function identifier – to allow for presentation that is more familiar looking than typical function syntax. For example, a function that tests for greater-than could be named gt, but many languages provide an infix symbolic operator so that code looks more familiar. For example, this:
+>
+> if gt(x, y) then return
+>
+> Can be:
+>
+> if x > y then return
+>
+> Source: Wikipedia contributors, “Operator (computer programming)”, https://en.wikipedia.org/wiki/Operator_(computer_programming), CC BY-SA 4.0. Unmodified.
 
 ## Parser
 
 A parser transforms a collection of [tokens](#tokens) in to an [AST](#ast) or [CST](#concrete-syntax-tree).
 
 https://en.wikipedia.org/wiki/Parsing#Parser
+
+## Parser Combinator
+
+> In computer programming, a parser combinator is a higher-order function that accepts several parsers as input and returns a new parser as its output. In this context, a parser is a function accepting strings as input and returning some structure as output, typically a parse tree or a set of indices representing locations in the string where parsing stopped successfully. Parser combinators enable a recursive descent parsing strategy that facilitates modular piecewise construction and testing. This parsing technique is called combinatory parsing.
+>
+> Source: Wikipedia contributors, “Parser combinator”, https://en.wikipedia.org/wiki/Parser_combinator, CC BY-SA 4.0. Unmodified.
 
 ## Parse Tree
 
@@ -512,6 +540,10 @@ A typechecker verifies all that all the [types](#type) of a program and it's inp
 A type [error](#error) denotes a value violates a program or a language's typing rules during [typechecking](#type-checker).
 
 ## Type Inference
+
+> Type inference, sometimes called type reconstruction,[1]: 320  refers to the automatic detection of the type of an expression in a formal language. These include programming languages and mathematical type systems, but also natural languages in some branches of computer science and linguistics.
+>
+> Source: Wikipedia contributors, “Type inference”, https://en.wikipedia.org/wiki/Type_inference, CC BY-SA 4.0. Unmodified.
 
 Type inference is the detection of a variable/function return/function parameter's [type](#type) without adding a type in the source code. The type is determined by it's use e.g. what value is being assigned, what operation is being performed (`a + 1` means `a` is a number), what argument is passed.
 

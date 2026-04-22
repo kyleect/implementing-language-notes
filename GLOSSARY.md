@@ -20,6 +20,12 @@ https://en.wikipedia.org/wiki/Backtracking
 
 https://en.wikipedia.org/wiki/Bytecode
 
+## Code Formatting
+
+Code formatting transforms input source in to formatted output source code.
+
+https://en.wikipedia.org/wiki/Pretty-printing
+
 ## Comments
 
 Comments is text in the source code ignored by the [compiler](#compiler) or [interpreter](#interpreter).
@@ -93,6 +99,10 @@ https://en.wikipedia.org/wiki/Formal_grammar
 ## Formal language
 
 https://en.wikipedia.org/wiki/Formal_language
+
+## Generic Types
+
+https://en.wikipedia.org/wiki/Generic_programming
 
 ## Grammar
 
@@ -199,7 +209,15 @@ https://en.wikipedia.org/wiki/Lexical_analysis#Disambiguation_of_%22lexeme%22
 
 ## Literals
 
-TODO
+https://en.wikipedia.org/wiki/Literal_(computer_programming)
+
+## Macros
+
+https://en.wikipedia.org/wiki/Macro_(computer_science)
+
+### Hygenic Macros
+
+https://en.wikipedia.org/wiki/Hygienic_macro
 
 ## Operators
 
@@ -218,6 +236,14 @@ https://en.wikipedia.org/wiki/Parse_tree
 ## Parsing Precedence
 
 https://en.wikipedia.org/wiki/Operator-precedence_parser
+
+## Parametric polymorphism
+
+https://en.wikipedia.org/wiki/Parametric_polymorphism
+
+## Polymorphism
+
+https://en.wikipedia.org/wiki/Polymorphism_(computer_science)
 
 ## Pratt Parser
 
@@ -256,6 +282,16 @@ Spans represent a position within a given piece of text. This can be represented
 An statement is a piece of code that does not generate a value but does generate a side effect. Statements include declarations (variables, functions, structs, enums), expression statements, control flow statements, etc.
 
 https://en.wikipedia.org/wiki/Statement_(computer_science)
+
+## Subtyping
+
+https://en.wikipedia.org/wiki/Subtyping
+
+## Syntactic Sugar
+
+Syntactic sugar "sugar" is syntax in the language that will be expanded to other syntax at compile time.
+
+https://en.wikipedia.org/wiki/Syntactic_sugar
 
 ### Declaration Statement
 

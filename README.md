@@ -1,6 +1,6 @@
-# implementing-language-notes
+# Notes On Implementing Languages
 
-Notes on various aspects of implementing a programming language.
+## Resources
 
 - [Glossary](./GLOSSARY.md)
 - [Links](./LINKS.md)

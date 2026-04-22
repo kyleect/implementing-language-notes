@@ -22,6 +22,11 @@
 - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html) `parsing, pratt-parsing`
 - [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf) `assembly, ast, compiler, pdf`
 - [My First Language Frontend with LLVM Tutorial](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html) `llvm, tutorial`
+- [The Compiler Is Your Best Friend, Stop Lying to It](https://blog.daniel-beskin.com/2025-12-22-the-compiler-is-your-best-friend-stop-lying-to-it) `compilers`
+- [No Semicolons Needed](https://terts.dev/blog/no-semicolons-needed/)
+- [Simple Bidirectional Type Inference](https://ettolrach.com/blog/bidirectional_inference.html) `types, type inference, tutorial`
+- [How to Choose Between Hindley-Milner and Bidirectional Typing](https://thunderseethe.dev/posts/how-to-choose-between-hm-and-bidir/) `typing, type inference`
+- [Are arrays functions?](https://futhark-lang.org/blog/2026-01-16-are-arrays-functions.html) `syntax, language-design`
 
 ## Books
 

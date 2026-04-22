@@ -1,7 +1,7 @@
 # Links
 
 - [r/programminglanguages](https://old.reddit.com/r/ProgrammingLanguages/)
-- [https://bernsteinbear.com/pl-resources/](Programming languages resources)
+- [Programming languages resources](https://bernsteinbear.com/pl-resources/)
 
 ## Blog Posts
 

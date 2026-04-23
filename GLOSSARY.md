@@ -34,6 +34,12 @@ https://stackoverflow.com/questions/15984671/what-does-backpatching-mean
 >
 > Source: Wikipedia contributors, “Bytecode”, https://en.wikipedia.org/wiki/Bytecode, CC BY-SA 4.0. Unmodified.
 
+## Closure (computer programming)
+
+> In programming languages, a closure, also lexical closure or function closure, is a technique for implementing lexically scoped name binding in a language with first-class functions. Operationally, a closure is a record storing a function[a] together with an environment.[1] The environment is a mapping associating each free variable of the function (variables that are used locally, but defined in an enclosing scope) with the value or reference to which the name was bound when the closure was created.[b] Unlike a plain function, a closure allows the function to access those captured variables through the closure's copies of their values or references, even when the function is invoked outside their scope.
+>
+> Source: Wikipedia contributors, “Closure (computer programming)”, https://en.wikipedia.org/wiki/Closure_(computer_programming), CC BY-SA 4.0. Unmodified.
+
 ## Code Formatting
 
 > Pretty-printing (or prettyprinting) is the application of any of various stylistic formatting conventions to text files, such as source code, markup, and similar kinds of content. These formatting conventions may entail adhering to an indentation style, using different color and typeface to highlight syntactic elements of source code, or adjusting size, to make the content easier for people to read, and understand. Pretty-printers for source code are sometimes called code formatters or beautifiers.

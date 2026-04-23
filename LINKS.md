@@ -32,6 +32,10 @@
 - [Implement your language twice](https://futhark-lang.org/blog/2025-05-07-implement-your-language-twice.html)
 - [That XOR Trick](https://florian.github.io/xor-trick/)
 
+## Interesting
+
+- [Every function is a closure?](https://softwareengineering.stackexchange.com/a/263094)
+
 ## Books
 
 - [Crafting Interpreters](https://craftinginterpreters.com/) by Robert Nystrom

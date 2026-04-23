@@ -35,6 +35,7 @@
 ## Interesting
 
 - [Every function is a closure?](https://softwareengineering.stackexchange.com/a/263094)
+- [When is a function a closure?](https://stackoverflow.com/questions/4020419/why-arent-python-nested-functions-called-closures)
 
 ## Books
 

@@ -31,6 +31,7 @@
 - [Beyond Booleans](https://overreacted.io/beyond-booleans/) `types`
 - [Implement your language twice](https://futhark-lang.org/blog/2025-05-07-implement-your-language-twice.html)
 - [That XOR Trick](https://florian.github.io/xor-trick/)
+- [The Language Strangeness Budget](https://steveklabnik.com/writing/the-language-strangeness-budget/)
 
 ## Interesting
 

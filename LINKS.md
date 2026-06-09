@@ -32,6 +32,7 @@
 - [Implement your language twice](https://futhark-lang.org/blog/2025-05-07-implement-your-language-twice.html)
 - [That XOR Trick](https://florian.github.io/xor-trick/)
 - [The Language Strangeness Budget](https://steveklabnik.com/writing/the-language-strangeness-budget/)
+- [Co-Creator of Haskell: Functional Programming, Thinking in Types, Useless Languages | Simon Jones](https://www.youtube.com/watch?v=xcB_LF3cdqw) `types, video`
 
 ## Interesting
 
